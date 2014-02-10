@@ -6,3 +6,5 @@ class Blog(db.Model):
     entry = db.TextProperty(required=True)
     time = db.DateTimeProperty(auto_now_add=True)
 
+
+

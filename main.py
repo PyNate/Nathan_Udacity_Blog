@@ -1,9 +1,7 @@
 from handlers import Handler
 import webapp2
 from userfunctions import SignupPage, WelcomePage, LoginPage, Logout
-from blogpage import BlogPage
-from postpage import PostPage
-from newpost import NewPost
+from blogfunctions import BlogPage, PostPage, NewPost
 
 
 class MainPage(Handler):
